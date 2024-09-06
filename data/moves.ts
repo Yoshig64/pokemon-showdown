@@ -21,7 +21,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	absorb: {
 		num: 71,
 		accuracy: 100,
-		basePower: 20,
+		basePower: 60,
 		category: "Special",
 		name: "Absorb",
 		pp: 25,
@@ -36,7 +36,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	accelerock: {
 		num: 709,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 80,
 		category: "Physical",
 		name: "Accelerock",
 		pp: 20,
@@ -50,7 +50,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	acid: {
 		num: 51,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 60,
 		category: "Special",
 		name: "Acid",
 		pp: 30,
@@ -103,7 +103,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	acidspray: {
 		num: 491,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 65,
 		category: "Special",
 		name: "Acid Spray",
 		pp: 20,
@@ -122,7 +122,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	acrobatics: {
 		num: 512,
 		accuracy: 100,
-		basePower: 55,
+		basePower: 75,
 		basePowerCallback(pokemon, target, move) {
 			if (!pokemon.item) {
 				this.debug("BP doubled for no item");
@@ -469,7 +469,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	aquajet: {
 		num: 453,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 80,
 		category: "Physical",
 		name: "Aqua Jet",
 		pp: 20,
@@ -562,7 +562,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	armthrust: {
 		num: 292,
 		accuracy: 100,
-		basePower: 15,
+		basePower: 30,
 		category: "Physical",
 		name: "Arm Thrust",
 		pp: 20,
@@ -680,7 +680,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	astonish: {
 		num: 310,
 		accuracy: 100,
-		basePower: 30,
+		basePower: 65,
 		category: "Physical",
 		name: "Astonish",
 		pp: 15,
